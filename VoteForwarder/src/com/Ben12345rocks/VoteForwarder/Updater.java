@@ -38,12 +38,12 @@ public class Updater {
 		UPDATE_AVAILABLE
 	}
 
-	// private final String API_KEY =
-	// "98BE0FE67F88AB82B4C197FAF1DC3B69206EFDCC4D3B80FC83A00037510B99B4";
+	 private final String API_KEY =
+	 "98BE0FE67F88AB82B4C197FAF1DC3B69206EFDCC4D3B80FC83A00037510B99B4";
 
-	// private HttpURLConnection connection;
+	 private HttpURLConnection connection;
 
-	// private final String HOST = "http://www.spigotmc.org";
+	 private final String HOST = "http://www.spigotmc.org";
 
 	/** The old version. */
 	private String oldVersion;
@@ -51,9 +51,9 @@ public class Updater {
 	/** The plugin. */
 	private JavaPlugin plugin;
 
-	// private final String QUERY = "/api/general.php";
+	 private final String QUERY = "/api/general.php";
 
-	// private final String REQUEST_METHOD = "POST";
+	 private final String REQUEST_METHOD = "POST";
 
 	/** The resource id. */
 	private String RESOURCE_ID = "";
@@ -64,7 +64,7 @@ public class Updater {
 	/** The version. */
 	private String version;
 
-	// private String WRITE_STRING;
+	 private String WRITE_STRING;
 
 	/**
 	 * Instantiates a new updater.
@@ -86,7 +86,7 @@ public class Updater {
 			return;
 		}
 
-		// WRITE_STRING = "key=" + API_KEY + "&resource=" + RESOURCE_ID;
+		 WRITE_STRING = "key=" + API_KEY + "&resource=" + RESOURCE_ID;
 		run();
 	}
 
