@@ -28,7 +28,7 @@ public class Main extends JavaPlugin {
 			Metrics metrics = new Metrics(this);
 			metrics.start();
 		} catch (IOException e) {
-			// plugin.getLogger().info("Can't submit metrics stats");
+			 plugin.getLogger().info("Can't submit metrics stats");
 		}
 		BStatsMetrics bstats = new BStatsMetrics(this);
 		bstats.addCustomChart(new BStatsMetrics.SimplePie("numberofservers") {
